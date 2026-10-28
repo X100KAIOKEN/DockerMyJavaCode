@@ -1,0 +1,11 @@
+# Скомпилированные классы
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+
+# Системный мусор
+.DS_Store
+Thumbs.db

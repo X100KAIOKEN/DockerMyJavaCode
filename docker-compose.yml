@@ -1,0 +1,8 @@
+# Альтернатива командам docker build / docker run.
+# Запуск:   docker compose up --build
+# Остановка: docker compose down
+services:
+  spn:
+    build: .
+    image: x100kaioken/spn-cipher:1.0
+    container_name: sro-spn
